@@ -1,0 +1,10 @@
+.grid-container{
+  display: inline-grid;
+  height: 50%;
+  width: 50%;
+  grid-template-columns: repeat(10, 1fr);
+}
+.grid-item {
+  padding: 50px;
+  -webkit-transition: all 2s ease-in-out;
+}
